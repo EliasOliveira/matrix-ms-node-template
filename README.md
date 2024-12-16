@@ -2,13 +2,16 @@
 
 ## Build
 
-```
-docker build -t node-template .
+```sh
+docker build -t matrix-sandbox .
 ```
 
+## Tag
+```sh
+docker tag matrix-sandbox eliasjunioroliveira/matrix-sandbox:0.0.1-rc1
+```
 ## Push
 
-
-```
-docker push eliasjunioroliveira/matrix-sandbox:tagname
+```sh
+docker push eliasjunioroliveira/matrix-sandbox:0.0.1-rc1
 ```
