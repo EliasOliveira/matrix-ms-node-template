@@ -8,10 +8,10 @@ docker build -t matrix-sandbox .
 
 ## Tag
 ```sh
-docker tag matrix-sandbox eliasjunioroliveira/matrix-sandbox:0.0.1-rc1
+docker tag matrix-sandbox eliasjunioroliveira/matrix-sandbox:0.0.1-rc2
 ```
 ## Push
 
 ```sh
-docker push eliasjunioroliveira/matrix-sandbox:0.0.1-rc1
+docker push eliasjunioroliveira/matrix-sandbox:0.0.1-rc2
 ```
